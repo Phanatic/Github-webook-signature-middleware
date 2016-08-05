@@ -1,3 +1,8 @@
+// Copyright © 2016 Phani Raj <phanirajuyn@gmail.com>
+// This work is free. You can redistribute it and/or modify it under the
+// terms of the Do Whatever You Want To Public License, Version 2,
+// as published by Sam Hocevar. See the COPYING file for more details.
+
 var crypto = require('crypto');
 
 function GithubMD5SingatureValidator(secret) {
