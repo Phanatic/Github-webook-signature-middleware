@@ -1,0 +1,22 @@
+{
+  "name": "github-webook-signature-middleware",
+  "version": "0.0.1",
+  "description": "ExpressJS middleware to validate MD5 signatures of  payloads from GitHub webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-unless": "^0.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-jsbeautifier": "^2.0.3",
+    "should": "^10.0.0",
+    "yargs": "^4.8.1"
+  }
+}
